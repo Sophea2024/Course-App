@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-left: 5rem;
+}
+.members-list {
+    width: 300px;
+}
+
+h1 {
+    padding-top: 40px;
+    color: darkblue;
+}
+
+ul.custom-list {  
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.custom-list li {
+    
+    padding: 5px;
+    font-size: large;
+}
+
+ul.custom-list li:nth-child(odd) {
+    background-color: rgb(243, 247, 252);
+}
+
+ul.custom-list li:nth-child(even) {
+    background-color: rgb(250, 248, 248);
+}
+
+span.number {
+    display: inline-block;
+    width: 2rem;
+    font-weight: bold;
+}
