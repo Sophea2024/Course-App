@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.member-info {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+}
+
+.members-data {
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(250, 248, 248);
+    border-radius: 5px;
+}
